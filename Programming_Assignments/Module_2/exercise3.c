@@ -18,7 +18,7 @@ int main(void)
     float duration; //declare variable to hold duration of the journey
     
     //prompt user for name
-    printf("Dearest user, what be thy name?\n");
+    printf("Dearest user, what be thy given name?\n");
     
     //get user's name and assign to name variable
     scanf("%s", name);
