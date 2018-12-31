@@ -13,8 +13,12 @@
 unsigned long long seconds; //variable to hold seconds value input by user
 unsigned long long hours; //variable to hold number of hours
 double minutes; //variable to hold number of minutes
-const int SECONDS_IN_HOUR = 3600; //define and initialize constant # of seconds in an hour
-const int SECONDS_IN_MINUTE = 60; //define and initialize constant # of seconds in a minute
+
+//define and initialize constant # of seconds in an hour
+const int SECONDS_IN_HOUR = 3600; 
+
+//define and initialize constant # of seconds in a minute
+const int SECONDS_IN_MINUTE = 60; 
 
 int main(void)
   {
