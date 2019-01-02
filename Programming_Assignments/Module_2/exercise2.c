@@ -18,7 +18,7 @@ int main(void)
     int number; //define variable to store user's number
     int counter = 11; //define and initialize counter variable to control the while loop
     
-    printf("Enter a positive number:\n"); //asks the user to enter a number
+    printf("Enter a number:\n"); //asks the user to enter a number
     scanf("%d", &number); //assigns that integer value to number variable
     printf("\nHere's your number, and ten more!\n\n"); //message to let the user know what's about to happen
     sleep(1); //short pause so that user has time to read the message
