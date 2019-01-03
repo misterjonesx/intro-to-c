@@ -11,7 +11,6 @@
 *************************************************/
 
 #include <stdio.h>
-#include <stdbool.h>
 #define STOP '#' //define # as end of text to be analyzed
 
 char character; //read in character
