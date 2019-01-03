@@ -9,7 +9,7 @@
 *************************************************/
 
 #include <stdio.h>
-#include <stdbool.h>
+#include <stdbool.h> //for bool, true, false
 
 unsigned long number, divisor; //variables to hold user input and divisor
 bool is_prime; //flag to control output
