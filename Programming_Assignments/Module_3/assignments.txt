@@ -22,6 +22,15 @@ should look like the following with an explanation if it not a prime:
 Enter an integer to be tested if a prime number: 9
 The number is not prime because it is divisible by 3
 
+prompt user for number
+check if input is integer
+    divide input by increasing divisors
+        if input % divisor == 0,
+            set flag to not_prime
+        else
+            set flag to prime
+    print results
+
 Enter an integer to be tested if a prime number: 5683
 The number is a prime.
 
