@@ -11,12 +11,6 @@
 * sentence to the screen.
 *************************************************/
 
-//ask user for sentence
-//evaluate each character in the sentence
-//  if it is a space, do nothing
-//  else if it is a vowel, place a Z into sentence array
-//  else place it into sentence array
-
 #include <stdio.h>
 #include <ctype.h> //for tolower()
 #define STOP '.' //define # as end of text to be analyzed
